@@ -1,0 +1,41 @@
+var block1;
+var block2;
+var block3;
+var block4;
+var bounceSound;
+var ball;
+function preload(){
+
+bounceSound = loadSound("music.mp3")
+
+
+}
+
+function setup() {
+createCanvas(1200,800);
+
+block1 = createSprite(0,500,360,30)
+block1.shapeColor = "blue";
+
+block2 = createSprite(295,500,200,30)
+block2.shapeColor = "orange";
+
+block3 = createSprite(500,500,40,30)
+block3.shapeColor = "red";
+
+block4 = createSprite(800,500,0,30)
+block4.shapeColor = "green";
+  
+ball = createSprite(random(20,750),100, 40,40);
+ball.shapeColor = rgb(255,255,255);
+    
+
+
+}
+
+function draw() {
+
+
+
+    
+}
